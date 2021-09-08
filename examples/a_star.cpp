@@ -17,7 +17,7 @@ int main() {
 
     // Print Map
     std::cout << "Map:" << std::endl;
-    Map::print2DVector(map.mGrid);
+    map.printMap();
     std::cout << std::endl;
 
     // Print heurisitc
